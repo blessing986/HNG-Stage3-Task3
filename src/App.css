@@ -5,3 +5,37 @@ body, html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
 }
+
+.mimi {
+  color: #434343;
+}
+
+.btn1 {
+
+  background-color: #A02279;
+}
+
+.unique {
+  color: #A02279;
+}
+
+.loca {
+  color: #333333;
+}
+
+.rows {
+  width: 260px;
+  height: 265px;
+}
+
+.foot {
+  background-color: #1D1D1E;
+}
+
+.wrapper {
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}

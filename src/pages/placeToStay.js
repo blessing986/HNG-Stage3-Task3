@@ -49,7 +49,7 @@ function placeToStay() {
                 <a href="/" className="mimi p-2"> Farm </a>
 
 
-                <div className="flex rounded-lg py-2 px-4 border items-center cursor-pointer">
+                <div className="flex rounded-lg py-2 px-4 border items-center cursor-pointer  hover:bg-gray-200 ease-in duration-300">
 
                     <p className="loca">Location</p>
 

@@ -1,8 +1,12 @@
 import React from "react";
 import "./App.css";
+import { Link } from 'react-router-dom'
+import placeToStay from "./pages/placeToStay";
 
 function App() {
+
   return (
+
     <div>
 
       {/* Section 1 */}
@@ -15,10 +19,10 @@ function App() {
 
           <nav classNam="hidden md:block">
 
-            <a href="/" className="mr-14 mimi">Home</a>
-            <a href="/" className="mr-14 mimi">Place to stay</a>
-            <a href="/" className="mr-14 mimi">NFTs</a>
-            <a href="/" className="mimi">Community</a>
+            <Link to="/" className="mr-14 mimi">Home</Link>
+            <Link to="/placeToStay" className="mr-14 mimi">Place to stay</Link>
+            <Link to="#" className="mr-14 mimi">NFTs</Link>
+            <Link to="#" className="mimi">Community</Link>
 
           </nav>
 

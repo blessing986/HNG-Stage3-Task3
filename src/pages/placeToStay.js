@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 
 function placeToStay() {
 
@@ -14,10 +15,10 @@ function placeToStay() {
 
                     <nav className="hidden md:block">
 
-                        <a href="#" className="mr-14 mimi">Home</a>
-                        <a href="#" className="mr-14 mimi">Place to stay</a>
-                        <a href="#" className="mr-14 mimi">NFTs</a>
-                        <a href="#" className="mimi">Community</a>
+                        <Link to="/" className="mr-14 mimi">Home</Link>
+                        <Link to="/placeToStay" className="mr-14 mimi">Place to stay</Link>
+                        <Link to="#" className="mr-14 mimi">NFTs</Link>
+                        <Link to="#" className="mimi">Community</Link>
 
                     </nav>
 

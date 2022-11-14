@@ -24,6 +24,15 @@ body, html {
   background-color: #A02279;
 }
 
+.btn1:hover {
+  background-color: #8a1b67;
+  transition: all 0.25s ease;
+}
+
+.mbtoken {
+  background-color: #A02279;
+}
+
 .unique {
   color: #A02279;
 }

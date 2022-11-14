@@ -10,6 +10,15 @@ body, html {
   color: #434343;
 }
 
+.mimi:hover {
+  color: #A02279;
+  transition: all 0.25s ease;
+}
+
+.card {
+  color: #434343;
+}
+
 .btn1 {
 
   background-color: #A02279;

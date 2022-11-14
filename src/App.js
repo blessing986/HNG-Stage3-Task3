@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+import Modal from "./components/Modal";
 import { Link } from 'react-router-dom'
 import placeToStay from "./pages/placeToStay";
 
 function App() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  isOpen?document.body.style.overflow = "hidden":document.body.style.overflow ="auto";
 
   return (
 
@@ -17,7 +22,7 @@ function App() {
 
           <img src="./assets/img/metabnb_1.png" alt="" />
 
-          <nav classNam="hidden md:block">
+          <nav className="hidden md:block">
 
             <Link to="/" className="mr-14 mimi">Home</Link>
             <Link to="/placeToStay" className="mr-14 mimi">Place to stay</Link>
@@ -26,8 +31,10 @@ function App() {
 
           </nav>
 
-          <button className="btn1 text-white px-6 py-2 rounded font-normal text-base hidden md:block">Connect
+          <button className="btn1 text-white px-6 py-2 rounded font-normal text-base hidden md:block" onClick={() => setIsOpen(true)}>Connect
             wallet</button>
+
+          {isOpen && <Modal setIsOpen={setIsOpen} />}
 
         </div>
 
@@ -54,7 +61,7 @@ function App() {
             <div className="flex mt-6 md:mt-12">
 
               <input type="text" placeholder="search for location"
-                className="p-2 border rounded-l-lg focus:outline-none md:w-2/4 w-3/5" />
+                className="p-3 border rounded-l-lg focus:outline-none md:w-4/5 w-3/5" />
 
               <button className="btn1 text-white lg:px-20 rounded-r-lg w-2/5 md:w-none">Search</button>
 
@@ -90,7 +97,7 @@ function App() {
 
         {/* Row 1 */}
 
-        <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap mimi">
+        <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap card">
 
           <div className="border rounded-lg p-4 mx-10 sm:mx-44 md:mx-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0">
 
@@ -214,7 +221,7 @@ function App() {
 
         </div>
 
-        <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap mimi">
+        <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
           <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
 

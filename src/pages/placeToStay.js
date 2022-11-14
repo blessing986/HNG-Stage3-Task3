@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import Modal from "../components/Modal";
 import { Link } from 'react-router-dom'
 
 function placeToStay() {
 
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    const [isOpen, setIsOpen] = useState(false);
+
+    isOpen ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";
+
     return (
-        
+
         <div>
 
             <section className="md:mt-6 md:px-8 lg:px-14 sticky top-0 bg-white py-4">
@@ -22,8 +28,10 @@ function placeToStay() {
 
                     </nav>
 
-                    <button className="btn1 text-white px-6 py-2 rounded font-normal text-base hidden md:block">Connect
+                    <button className="btn1 text-white px-6 py-2 rounded font-normal text-base hidden md:block" onClick={() => setIsOpen(true)}>Connect
                         wallet</button>
+
+                    {isOpen && <Modal setIsOpen={setIsOpen} />}
 
                 </div>
 
@@ -59,7 +67,7 @@ function placeToStay() {
 
                 {/* Row 1 */}
 
-                <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap mimi">
+                <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap card">
 
                     <div className="border rounded-lg p-4 mx-10 sm:mx-44 md:mx-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0">
 
@@ -185,7 +193,7 @@ function placeToStay() {
 
                 {/* Row 2 */}
 
-                <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap mimi">
+                <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
                     <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
 
@@ -311,7 +319,7 @@ function placeToStay() {
 
                 {/* Row 3 */}
 
-                <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap mimi">
+                <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
                     <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
 
@@ -437,7 +445,7 @@ function placeToStay() {
 
                 {/* Row 4 */}
 
-                <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap mimi">
+                <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
                     <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
 

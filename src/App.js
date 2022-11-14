@@ -81,7 +81,7 @@ function App() {
 
       {/* Section 3 */}
 
-      <section className="btn1 flex justify-between px-4 mt-14 md:px-8 lg:px-14 py-2">
+      <section className="mbtoken flex justify-between px-4 mt-14 md:px-8 lg:px-14 py-2">
 
         <img src="./assets/img/mbtoken.png" alt="" className="lg:h-10 h-4 sm:h-6" />
         <img src="./assets/img/metamask.png" alt="" className="lg:h-10 h-4 sm:h-6" />
@@ -349,7 +349,7 @@ function App() {
 
       {/* Section 5 */}
 
-      <section className="btn1 flex flex-col md:flex-row px-4 md:px-8 lg:px-14 mt-12 py-20 items-center">
+      <section className="mbtoken flex flex-col md:flex-row px-4 md:px-8 lg:px-14 mt-12 py-20 items-center">
 
         <div className="text-white md:w-1/2 lg:pr-24 order-last md:order-none">
 
@@ -359,7 +359,7 @@ function App() {
             which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive
             services.</p>
 
-          <button className="unique bg-white px-10 py-2 rounded-lg">Learn more</button>
+          <button className="unique bg-white px-10 py-2 rounded-lg hover:bg-gray-200 ease-in duration-300">Learn more</button>
 
         </div>
 

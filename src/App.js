@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Modal from "./components/Modal";
 import { Link } from 'react-router-dom'
+import { RiCopyrightLine } from "react-icons/ri";
 import placeToStay from "./pages/placeToStay";
 
 function App() {
@@ -439,9 +440,10 @@ function App() {
 
         </div>
 
-        <div className="text-white text-base mt-4 pl-10 md:pl-0">
+        <div className="flex items-center text-white text-base mt-4 pl-10 md:pl-0">
 
-          <span className="copyright">&copy</span> 2022 Metabnb
+          <div className="mr-2"> <RiCopyrightLine /> </div>
+          <p> 2022 Metabnb </p>
 
         </div>
 

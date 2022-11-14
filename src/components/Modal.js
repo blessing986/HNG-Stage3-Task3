@@ -34,7 +34,7 @@ const Modal = ({ setIsOpen }) => {
                             <div class="flex items-center">
 
                                 <img src="./assets/img/cat.png" alt="" />
-                                <p class="font-semibold text-black pl-4 pr-44 sm:pr-60">Metamask</p>
+                                <p class="font-semibold text-black pl-4 pr-24 sm:pr-60">Metamask</p>
 
                             </div>
 

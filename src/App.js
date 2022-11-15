@@ -1,45 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import "./App.css";
-import Modal from "./components/Modal";
-import { Link } from 'react-router-dom'
+import Navbar from "./components/Navbar";
 import { RiCopyrightLine } from "react-icons/ri";
 import placeToStay from "./pages/placeToStay";
 
 function App() {
 
-  const [isOpen, setIsOpen] = useState(false);
-
-  isOpen?document.body.style.overflow = "hidden":document.body.style.overflow ="auto";
-
   return (
 
     <div>
 
-      {/* Section 1 */}
-
-      <section className="md:mt-6 md:px-8 lg:px-14 sticky top-0 bg-white py-4">
-
-        <div className="flex justify-between items-center">
-
-          <img src="./assets/img/metabnb_1.png" alt="" />
-
-          <nav className="hidden md:block">
-
-            <Link to="/" className="mr-14 mimi">Home</Link>
-            <Link to="/placeToStay" className="mr-14 mimi">Place to stay</Link>
-            <Link to="#" className="mr-14 mimi">NFTs</Link>
-            <Link to="#" className="mimi">Community</Link>
-
-          </nav>
-
-          <button className="btn1 text-white px-6 py-2 rounded font-normal text-base hidden md:block" onClick={() => setIsOpen(true)}>Connect
-            wallet</button>
-
-          {isOpen && <Modal setIsOpen={setIsOpen} />}
-
-        </div>
-
-      </section>
+      <Navbar/>
 
       {/* Section 2 */}
 
@@ -98,41 +69,11 @@ function App() {
 
         {/* Row 1 */}
 
-        <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap card">
+        <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap card ">
 
-          <div className="border rounded-lg p-4 mx-10 sm:mx-44 md:mx-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0">
+          <div className="border rounded-lg p-4 mx-10 sm:mx-44 md:mx-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 cursor-pointer">
 
-            <img src="./assets/img/row1_A.png" alt="" className="rows w-full" />
-
-            <div className="flex justify-between text-xs my-2">
-
-              <p>Desert King</p>
-              <p className="font-bold">1MBT per night</p>
-
-            </div>
-
-            <div className="flex justify-between text-xs">
-
-              <p>2345km away</p>
-              <p>available for 2weeks stay</p>
-
-            </div>
-
-            <div className="flex mt-2">
-
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" />
-
-            </div>
-
-          </div>
-
-          <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44">
-
-            <img src="./assets/img/row1_B.png" alt="" className="rows w-full" />
+            <img src="./assets/img/row1_A.png" alt="" className="w-full" />
 
             <div className="flex justify-between text-xs my-2">
 
@@ -160,9 +101,9 @@ function App() {
 
           </div>
 
-          <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44">
+          <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-            <img src="./assets/img/row1_C.png" alt="" className="rows w-full" />
+            <img src="./assets/img/row1_B.png" alt="" className="w-full" />
 
             <div className="flex justify-between text-xs my-2">
 
@@ -190,9 +131,39 @@ function App() {
 
           </div>
 
-          <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10">
+          <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44 cursor-pointer ">
 
-            <img src="./assets/img/row1_D.png" alt="" className="rows w-full" />
+            <img src="./assets/img/row1_C.png" alt="" className="w-full" />
+
+            <div className="flex justify-between text-xs my-2">
+
+              <p>Desert King</p>
+              <p className="font-bold">1MBT per night</p>
+
+            </div>
+
+            <div className="flex justify-between text-xs">
+
+              <p>2345km away</p>
+              <p>available for 2weeks stay</p>
+
+            </div>
+
+            <div className="flex mt-2">
+
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" />
+
+            </div>
+
+          </div>
+
+          <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10 cursor-pointer ">
+
+            <img src="./assets/img/row1_D.png" alt="" className="w-full" />
 
             <div className="flex justify-between text-xs my-2">
 
@@ -224,39 +195,9 @@ function App() {
 
         <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
-          <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
+          <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-            <img src="./assets/img/row2_A.png" alt="" className="rows w-full" />
-
-            <div className="flex justify-between text-xs my-2">
-
-              <p>Desert King</p>
-              <p className="font-bold">1MBT per night</p>
-
-            </div>
-
-            <div className="flex justify-between text-xs">
-
-              <p>2345km away</p>
-              <p>available for 2weeks stay</p>
-
-            </div>
-
-            <div className="flex mt-2">
-
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" className="mr-2" />
-              <img src="./assets/img/star.png" alt="" />
-
-            </div>
-
-          </div>
-
-          <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44">
-
-            <img src="./assets/img/row2_B.png" alt="" className="rows w-full" />
+            <img src="./assets/img/row2_A.png" alt="" className="w-full" />
 
             <div className="flex justify-between text-xs my-2">
 
@@ -284,9 +225,9 @@ function App() {
 
           </div>
 
-          <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44">
+          <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-            <img src="./assets/img/row2_C.png" alt="" className="rows w-full" />
+            <img src="./assets/img/row2_B.png" alt="" className="w-full" />
 
             <div className="flex justify-between text-xs my-2">
 
@@ -314,9 +255,39 @@ function App() {
 
           </div>
 
-          <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10">
+          <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44 cursor-pointer ">
 
-            <img src="./assets/img/row2_D.png" alt="" className="rows w-full" />
+            <img src="./assets/img/row2_C.png" alt="" className="w-full" />
+
+            <div className="flex justify-between text-xs my-2">
+
+              <p>Desert King</p>
+              <p className="font-bold">1MBT per night</p>
+
+            </div>
+
+            <div className="flex justify-between text-xs">
+
+              <p>2345km away</p>
+              <p>available for 2weeks stay</p>
+
+            </div>
+
+            <div className="flex mt-2">
+
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" className="mr-2" />
+              <img src="./assets/img/star.png" alt="" />
+
+            </div>
+
+          </div>
+
+          <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10 cursor-pointer ">
+
+            <img src="./assets/img/row2_D.png" alt="" className="w-full" />
 
             <div className="flex justify-between text-xs my-2">
 

@@ -70,39 +70,9 @@ function placeToStay() {
 
                 <div className="flex flex-col md:flex-row justify-between md:flex-wrap lg:flex-nowrap card">
 
-                    <div className="border rounded-lg p-4 mx-10 sm:mx-44 md:mx-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0">
+                    <div className="border rounded-lg p-4 mx-10 sm:mx-44 md:mx-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 cursor-pointer ">
 
-                        <img src="./assets/img/row2_A.png" alt="" className="rows w-full" />
-
-                        <div className="flex justify-between text-xs my-2">
-
-                            <p>Desert King</p>
-                            <p className="font-bold">1MBT per night</p>
-
-                        </div>
-
-                        <div className="flex justify-between text-xs">
-
-                            <p>2345km away</p>
-                            <p>available for 2weeks stay</p>
-
-                        </div>
-
-                        <div className="flex mt-2">
-
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" />
-
-                        </div>
-
-                    </div>
-
-                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44">
-
-                        <img src="./assets/img/row2_B.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row2_A.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -130,9 +100,9 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row2_C.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row2_B.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -160,9 +130,39 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row2_D.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row2_C.png" alt="" className="w-full" />
+
+                        <div className="flex justify-between text-xs my-2">
+
+                            <p>Desert King</p>
+                            <p className="font-bold">1MBT per night</p>
+
+                        </div>
+
+                        <div className="flex justify-between text-xs">
+
+                            <p>2345km away</p>
+                            <p>available for 2weeks stay</p>
+
+                        </div>
+
+                        <div className="flex mt-2">
+
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" />
+
+                        </div>
+
+                    </div>
+
+                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10 cursor-pointer ">
+
+                        <img src="./assets/img/row2_D.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -196,39 +196,9 @@ function placeToStay() {
 
                 <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row1_A.png" alt="" className="rows w-full" />
-
-                        <div className="flex justify-between text-xs my-2">
-
-                            <p>Desert King</p>
-                            <p className="font-bold">1MBT per night</p>
-
-                        </div>
-
-                        <div className="flex justify-between text-xs">
-
-                            <p>2345km away</p>
-                            <p>available for 2weeks stay</p>
-
-                        </div>
-
-                        <div className="flex mt-2">
-
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" />
-
-                        </div>
-
-                    </div>
-
-                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44">
-
-                        <img src="./assets/img/row1_B.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row1_A.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -256,9 +226,9 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row1_C.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row1_B.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -286,9 +256,39 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row1_D.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row1_C.png" alt="" className="w-full" />
+
+                        <div className="flex justify-between text-xs my-2">
+
+                            <p>Desert King</p>
+                            <p className="font-bold">1MBT per night</p>
+
+                        </div>
+
+                        <div className="flex justify-between text-xs">
+
+                            <p>2345km away</p>
+                            <p>available for 2weeks stay</p>
+
+                        </div>
+
+                        <div className="flex mt-2">
+
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" />
+
+                        </div>
+
+                    </div>
+
+                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10 cursor-pointer ">
+
+                        <img src="./assets/img/row1_D.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -322,39 +322,9 @@ function placeToStay() {
 
                 <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row3_A.png" alt="" className="rows w-full" />
-
-                        <div className="flex justify-between text-xs my-2">
-
-                            <p>Desert King</p>
-                            <p className="font-bold">1MBT per night</p>
-
-                        </div>
-
-                        <div className="flex justify-between text-xs">
-
-                            <p>2345km away</p>
-                            <p>available for 2weeks stay</p>
-
-                        </div>
-
-                        <div className="flex mt-2">
-
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" />
-
-                        </div>
-
-                    </div>
-
-                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44">
-
-                        <img src="./assets/img/row3_B.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row3_A.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -382,9 +352,9 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row3_C.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row3_B.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -412,9 +382,39 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row3_D.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row3_C.png" alt="" className="w-full" />
+
+                        <div className="flex justify-between text-xs my-2">
+
+                            <p>Desert King</p>
+                            <p className="font-bold">1MBT per night</p>
+
+                        </div>
+
+                        <div className="flex justify-between text-xs">
+
+                            <p>2345km away</p>
+                            <p>available for 2weeks stay</p>
+
+                        </div>
+
+                        <div className="flex mt-2">
+
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" />
+
+                        </div>
+
+                    </div>
+
+                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10 cursor-pointer ">
+
+                        <img src="./assets/img/row3_D.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -448,39 +448,9 @@ function placeToStay() {
 
                 <div className="flex flex-col md:flex-row justify-between mt-4 md:flex-wrap lg:flex-nowrap card">
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row4_A.png" alt="" className="rows w-full" />
-
-                        <div className="flex justify-between text-xs my-2">
-
-                            <p>Desert King</p>
-                            <p className="font-bold">1MBT per night</p>
-
-                        </div>
-
-                        <div className="flex justify-between text-xs">
-
-                            <p>2345km away</p>
-                            <p>available for 2weeks stay</p>
-
-                        </div>
-
-                        <div className="flex mt-2">
-
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" className="mr-2" />
-                            <img src="./assets/img/star.png" alt="" />
-
-                        </div>
-
-                    </div>
-
-                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44">
-
-                        <img src="./assets/img/row4_B.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row4_A.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -508,9 +478,9 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44">
+                    <div className="border rounded-lg p-4 mx-10 lg:mr-4 md:mr-10 md:ml-0 mb-4 lg:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row4_C.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row4_B.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 
@@ -538,9 +508,39 @@ function placeToStay() {
 
                     </div>
 
-                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10">
+                    <div className="border rounded-lg p-4 mx-10 md:mr-4 md:ml-10 lg:ml-0 mb-4 md:mb-0 sm:mx-44 cursor-pointer ">
 
-                        <img src="./assets/img/row4_D.png" alt="" className="rows w-full" />
+                        <img src="./assets/img/row4_C.png" alt="" className="w-full" />
+
+                        <div className="flex justify-between text-xs my-2">
+
+                            <p>Desert King</p>
+                            <p className="font-bold">1MBT per night</p>
+
+                        </div>
+
+                        <div className="flex justify-between text-xs">
+
+                            <p>2345km away</p>
+                            <p>available for 2weeks stay</p>
+
+                        </div>
+
+                        <div className="flex mt-2">
+
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" className="mr-2" />
+                            <img src="./assets/img/star.png" alt="" />
+
+                        </div>
+
+                    </div>
+
+                    <div className="border rounded-lg p-4 mx-10 md:mx-0 sm:mx-44 lg:mr-0 md:mr-10 cursor-pointer ">
+
+                        <img src="./assets/img/row4_D.png" alt="" className="w-full" />
 
                         <div className="flex justify-between text-xs my-2">
 

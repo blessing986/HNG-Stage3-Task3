@@ -2,41 +2,15 @@ import React, { useState } from "react";
 import Modal from "../components/Modal";
 import { RiCopyrightLine } from "react-icons/ri";
 import { Link } from 'react-router-dom'
+import Navbar from "../components/Navbar";
 
 function placeToStay() {
-
-    // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [isOpen, setIsOpen] = useState(false);
-
-    isOpen ? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto";
 
     return (
 
         <div>
 
-            <section className="md:mt-6 md:px-8 lg:px-14 sticky top-0 bg-white py-4">
-
-                <div className="flex justify-between items-center">
-
-                    <img src="./assets/img/metabnb_1.png" alt="" />
-
-                    <nav className="hidden md:block">
-
-                        <Link to="/" className="mr-14 mimi">Home</Link>
-                        <Link to="/placeToStay" className="mr-14 mimi">Place to stay</Link>
-                        <Link to="#" className="mr-14 mimi">NFTs</Link>
-                        <Link to="#" className="mimi">Community</Link>
-
-                    </nav>
-
-                    <button className="btn1 text-white px-6 py-2 rounded font-normal text-base hidden md:block" onClick={() => setIsOpen(true)}>Connect
-                        wallet</button>
-
-                    {isOpen && <Modal setIsOpen={setIsOpen} />}
-
-                </div>
-
-            </section>
+            <Navbar/>
 
             <section className="wrapper flex justify-between items-center mx-2 sm:mx-8 lg:mx-14 mt-8 lg:mt-16 lg:w-5/6">
 

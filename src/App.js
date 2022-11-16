@@ -18,7 +18,7 @@ function App() {
 
         <div className="flex flex-col md:flex-row mt-10 md:mt-20 mx-4 md:mx-0">
 
-          <div className="md:w-1/2 md:mt-12 mt-6 order-last md:order-none md:mr-6 lg:mr-0 mimi">
+          <div className="md:w-1/2 md:mt-12 mt-6 order-last md:order-none md:mr-6 lg:mr-0">
 
             <h1 class="lg:text-5xl lg:leading-normal text-3xl sm:text-4xl"> Rent a
               <span class="unique"> Place</span> away from
